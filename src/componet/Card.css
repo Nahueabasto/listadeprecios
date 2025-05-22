@@ -1,0 +1,44 @@
+.alicard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    background-color: #444444; /* Color de fondo más oscuro */
+    margin-bottom: 15px; /* Agrega espacio entre tarjetas */
+    color: #ffffff; /* Texto en color blanco */
+    font-size: 0.9em;
+}
+
+.titulo {
+    margin: 0;
+    text-align: left; /* Alinea el texto del título a la izquierda */
+}
+
+.separator {
+    width: 2px;
+    height: 100%;
+    background-color: #ccc;
+    margin: 0 10px;
+    
+}
+
+.precio {
+    margin: 0;
+    text-align: right; /* Alinea el texto del precio a la derecha */
+}
+
+
+@media screen and (max-width: 780px) {
+    .alicard {
+        font-size: 0.8em; /* Tamaño de fuente reducido */
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .alicard {
+        font-size: 0.7em; /* Tamaño de fuente reducido */
+    }
+  }
